@@ -1,0 +1,35 @@
+.blogsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    padding: 1% 8%;
+    margin-bottom: 50px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > button {
+    border: 1px solid #555;
+    background-color: transparent;
+    padding: 6px 12px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.blogs {
+    display: grid;
+    gap: 38px 28px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+.blogv {
+    text-align: center;
+    background-color: red;
+}
