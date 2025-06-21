@@ -2,6 +2,7 @@ import "./App.css";
 import BlogsGrid from "./components/blogsGrid";
 import HorizontalBlog from "./components/horizontalBlogView";
 import LoginForm from "./components/loginForm";
+import blogs from './fake/data'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       </div>
       <HorizontalBlog />
       <LoginForm />
-      <BlogsGrid />
+      <BlogsGrid blogs={blogs}/>
     </div>
   );
 }
